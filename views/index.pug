@@ -1,0 +1,56 @@
+doctype html
+html
+  head
+    title Ajay Dance Academy
+    style
+      include ../static/style.css
+    body
+       nav#navbar.top
+        ul
+            div#logo
+                img(src="/static/img/1.png")
+                |ADA
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Contact Us]
+        
+    section#introSection
+        div Wellcome to Ajay Dance Academy
+        div#second LIve learn Dance repete
+    section#missionSection
+        h2 our mission
+        div.card
+            h3 Dance perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/img/1.png")
+                div.card-content
+                    p This is first dance academy of the universe
+        div.card
+            h3 Dance the way u like
+            div.card-box
+                div.card-img
+                    img(src="/static/img/3.png")
+                div.card-content
+                    p This is first dance academy of the universe
+        div.card
+            h3 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/img/4.png")
+                div.card-content
+                    p This is first dance academy of the universe
+    section#sponsorSection
+        h2 section for  sponsers
+        div#sponsors
+            img(src="/static/img/adidas.png", alt="sponsors image" ,class="spImage")
+            img(src="/static/img/amazon.png", alt="sponsors image" ,class="spImage")
+            img(src="/static/img/apple.png", alt="sponsors image" ,class="spImage")
+            img(src="/static/img/bmw.jpeg", alt="sponsors image" ,class="spImage")
+            img(src="/static/img/nike.jpeg", alt="sponsors image" ,class="spImage")
+    footer#footer
+        | Copyright 2023 AjayDanceAcademy.com |All right reserved
+        script
+            include  ../static/index.js

@@ -1,0 +1,45 @@
+extends base.pug
+
+block scripts
+    script(src='/static/index.js')
+
+block style
+    style
+        include ../static/style.css
+
+block content
+    
+    section#introSection
+        div Wellcome to Ajay Dance Academy
+        div#second LIve learn Dance repete
+    section#missionSection
+        h2 our mission
+        div.card
+            h3 Dance perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/img/1.png")
+                div.card-content
+                    p This is first dance academy of the universe
+        div.card
+            h3 Dance the way u like
+            div.card-box
+                div.card-img
+                    img(src="/static/img/3.png")
+                div.card-content
+                    p This is first dance academy of the universe
+        div.card
+            h3 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/img/4.png")
+                div.card-content
+                    p This is first dance academy of the universe
+    section#sponsorSection
+        h2 section for  sponsers
+        div#sponsors
+            img(src="/static/img/adidas.png", alt="sponsors image" ,class="spImage")
+            img(src="/static/img/amazon.png", alt="sponsors image" ,class="spImage")
+            img(src="/static/img/apple.png", alt="sponsors image" ,class="spImage")
+            img(src="/static/img/bmw.jpeg", alt="sponsors image" ,class="spImage")
+            img(src="/static/img/nike.jpeg", alt="sponsors image" ,class="spImage")
